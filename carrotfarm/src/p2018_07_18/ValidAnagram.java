@@ -1,4 +1,4 @@
-package P2018_07_18;
+package p2018_07_18;
 
 /**
  * Created on 2018. 7. 21..
