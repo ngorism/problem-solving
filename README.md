@@ -15,7 +15,7 @@
 
 ### LeetCode ID List
 - carrotfarm : yu jae shin
-- ..
+- kangtaku: kang dae won 
 
 
 
