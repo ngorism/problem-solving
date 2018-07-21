@@ -56,14 +56,16 @@ public class ReorderedPowerof2 {
 
 		if (depth == k) {
 			if (arr[0]!=0) {
-				result = isPowerOf2(arr);
+				if (isPowerOf2(arr)) {
+					return true;
+				}
 			}
 		}
 
 		for (int i = depth; i < n; i++) {
 			swap(arr, i, depth);
 			if (perm(arr, depth + 1, n, k)) {
-				result = true;
+				return true;
 			}
 			swap(arr, i, depth);
 		}
