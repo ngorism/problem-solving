@@ -1,11 +1,10 @@
 # problem-solving
 
-### 2018-07-18 ~ 2018-07-24
-
-- Valid Anagram: https://leetcode.com/problems/valid-anagram/description/
-- Symmetric Tree: https://leetcode.com/problems/symmetric-tree/description/
-- Majority Element: https://leetcode.com/problems/majority-element/description/
-- Reordered Power of 2: https://leetcode.com/problems/reordered-power-of-2/description/
+### 2018-07-24
+- Valid Parentheses https://leetcode.com/problems/valid-parentheses/description/ - Amazon
+- Two Sum https://leetcode.com/problems/two-sum/description/ - Facebook
+- Add Binary https://leetcode.com/problems/add-binary/description/ - Facebook
+- Number of Islands https://leetcode.com/problems/number-of-islands/description/ - Google
 
 ### 디렉토리 구조 
 - ROOT 하위 data 폴더는 공용 폴더입니다.
