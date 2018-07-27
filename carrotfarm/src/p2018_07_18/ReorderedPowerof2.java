@@ -1,10 +1,5 @@
 package p2018_07_18;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 /**
  * Created on 2018. 7. 21..
  */
