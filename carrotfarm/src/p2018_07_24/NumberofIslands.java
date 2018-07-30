@@ -4,18 +4,41 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-/**
- * Created on 2018. 7. 21..
- */
+// discuss 참조
 public class NumberofIslands {
 
 
 	public int numIslands(char[][] grid) {
 
 
+		int cnt = 0;
+		for (int i=0;i<grid.length;i++) {
+			for (int j=0;j<grid[0].length;j++) {
 
-		return 0;
+				if (grid[i][j] == '1') {
+					cnt++;
+					eraseLand(grid, i, j);
+				}
+			}
+		}
+//		System.out.println(cnt);
+		return cnt;
 	}
+
+	private void eraseLand(char[][] grid, int i, int j) {
+
+		if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length) {
+			return;
+		}
+		if (grid[i][j] == '1') {
+			grid[i][j] = '0';
+			eraseLand(grid, i-1, j);
+			eraseLand(grid, i+1, j);
+			eraseLand(grid, i, j+1);
+			eraseLand(grid, i, j-1);
+		}
+	}
+
 
 	@Test
 	public void test() {
