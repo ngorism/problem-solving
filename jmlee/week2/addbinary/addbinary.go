@@ -4,46 +4,33 @@ import (
 	"strconv"
 )
 
-func AddBinary(a string, b string) string {
-	/*
-		adding := 0
-		lenLong := max(len(a), len(b))
-		var buffer bytes.Buffer
+func addBinary(a string, b string) string {
+	carry := 0
+	lenLong := max(len(a), len(b))
+	runSlice := make([]rune, lenLong+1)
 
-		if i, err := strconv.Btoi64("1001", 2); err != nil {
+	left := reverse(a)
+	right := reverse(b)
 
-
-		for i := lenLong - 1; i >= 0; i-- {
-			sum := getBinaryValue(i, a) + getBinaryValue(i, b) + adding
-			if sum > 1 {
-				sum = sum % 2
-				adding = 1
-			} else {
-				adding = 0
-			}
-
-			buffer.WriteRune()
-
+	var i int
+	for i = 0; i < lenLong; i++ {
+		sum := getBinaryValue(i, left) + getBinaryValue(i, right) + carry
+		if sum > 1 {
+			carry = 1
+			sum = sum % 2
+		} else {
+			carry = 0
 		}
 
-		return "a"
-	*/
-	//intA, err := strconv.Btoi64(a, 2)
-}
-
-func simpleSolution(a string, b string) string {
-	intA, err := strconv.ParseUint(a, 2, 64)
-	if err != nil {
-		return ""
+		runSlice[i] = rune(sum + '0')
 	}
 
-	intB, err := strconv.ParseUint(b, 2, 64)
-	if err != nil {
-		return ""
+	if carry > 0 {
+		runSlice[i] = rune(1 + '0')
+		return reverse(string(runSlice))
+	} else {
+		return reverse(string(runSlice[:lenLong]))
 	}
-
-	resultInt := intA + intB
-	return strconv.FormatUint(resultInt, 2)
 }
 
 func max(left, right int) int {
@@ -64,4 +51,31 @@ func getBinaryValue(index int, binary string) int {
 			return 0
 		}
 	}
+}
+
+func reverse(s string) string {
+	runes := []rune(s)
+	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
+		runes[i], runes[j] = runes[j], runes[i]
+	}
+	return string(runes)
+}
+
+func convertRuneToInt(a rune) int {
+	return int(a) - '0'
+}
+
+func simpleSolution(a string, b string) string {
+	intA, err := strconv.ParseUint(a, 2, 64)
+	if err != nil {
+		return ""
+	}
+
+	intB, err := strconv.ParseUint(b, 2, 64)
+	if err != nil {
+		return ""
+	}
+
+	resultInt := intA + intB
+	return strconv.FormatUint(resultInt, 2)
 }

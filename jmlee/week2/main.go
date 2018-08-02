@@ -1,42 +1,10 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/jeongmin/problem-solving/jmlee/week2/validparentheses"
-)
+import "fmt"
 
 func main() {
+	slice := make([]int, 5, 10)
+	fmt.Printf("len %v, cap %v", len(slice), cap(slice))
 
-	testStr := "()"
-	result := validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = "()[]{}"
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = "(]"
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = "([)]"
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = "{[]}"
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = "{[[][{()}]]}"
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = "{{)}"
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
-
-	testStr = ""
-	result = validparentheses.IsValid(testStr)
-	fmt.Printf("%v is %v\n", testStr, result)
+	
 }

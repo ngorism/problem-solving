@@ -43,7 +43,7 @@ func (this *Stack) Size() int {
 //    Open brackets must be closed in the correct order.
 
 // IsValid validate whether the string s is consisted of the valid Parentheses or not.
-func IsValid(s string) bool {
+func isValid(s string) bool {
 	inputLen := len(s)
 	if inputLen == 0 {
 		return true

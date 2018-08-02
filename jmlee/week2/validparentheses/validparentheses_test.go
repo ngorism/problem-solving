@@ -1,6 +1,9 @@
 package validparentheses
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 /*
 Input: s = "anagram", t = "nagaram"
@@ -9,20 +12,36 @@ Output: true
 Input: s = "rat", t = "car"
 Output: false
 */
-func TestAnagram(t *testing.T) {
-	if IsAnagram("anagram", "nagaram") == false {
-		t.Error("Failed")
-	}
+func TestIsValid(t *testing.T) {
+	testStr := "()"
+	result := isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
 
-	if IsAnagram("rat", "car") == true {
-		t.Error("Failed")
-	}
+	testStr = "()[]{}"
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
 
-	if IsAnagram("아나그램", "나그아램") == false {
-		t.Error("Failed")
-	}
+	testStr = "(]"
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
 
-	if IsAnagram("아나그램", "나나나나") == true {
-		t.Error("Failed")
-	}
+	testStr = "([)]"
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
+
+	testStr = "{[]}"
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
+
+	testStr = "{[[][{()}]]}"
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
+
+	testStr = "{{)}"
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
+
+	testStr = ""
+	result = isValid(testStr)
+	fmt.Printf("%v is %v\n", testStr, result)
 }
