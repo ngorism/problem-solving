@@ -16,9 +16,6 @@ public class MissingNumber {
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
 
-		if (nums.length == 1 && nums[0] == 0) {
-			return 1;
-		}
 		Set<Integer> numSet = new HashSet<>();
 		for (int i=0;i<nums.length;i++) {
 			if (nums[i] < min) min = nums[i];
