@@ -1,6 +1,8 @@
 package utils;
 
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class TreeNodeUtils {
@@ -64,5 +66,36 @@ public class TreeNodeUtils {
 				nodeStack.push(node.left);
 			}
 		}
+	}
+
+	public static void bfsQueue(TreeNode root){
+
+		if(root == null){
+			return;
+		}
+
+		Queue<TreeNode> queue = new <TreeNode>LinkedList();
+		queue.offer(root);
+
+		while(!queue.isEmpty()) {
+
+			TreeNode n = queue.poll();
+			if (n==null)
+				continue;
+			System.out.println(n.val);
+			if (n.left != null) {
+				queue.offer(n.left);
+			}
+			if (n.right != null) {
+				queue.offer(n.right);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		TreeNodeUtils utils = new TreeNodeUtils();
+		TreeNode root = utils.makeTreeNode(new Integer[]{5,4,5,1,1,null,5});
+		bfsQueue(root);
+
 	}
 }

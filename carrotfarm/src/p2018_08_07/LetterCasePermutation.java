@@ -7,8 +7,6 @@ import org.junit.Test;
 
 public class LetterCasePermutation {
 
-
-
 	public List<String> letterCasePermutation(String S) {
 
 		List<String> result = new ArrayList<>();
