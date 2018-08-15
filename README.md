@@ -1,12 +1,12 @@
 # problem-solving
-### 2018-08-07  
-- The Maze(Medium) https://leetcode.com/problems/the-maze/description/
+### 2018-08-14  
+- Maximum Subarray(Easy) https://leetcode.com/problems/maximum-subarray/description/
 
-- 01 Matrix(Medium) https://leetcode.com/problems/01-matrix/description/
+- Jump Game(Medium) https://leetcode.com/problems/jump-game/description/
 
-- Longest Univalue Path(Easy) https://leetcode.com/problems/longest-univalue-path/description/
+- Minimum Path Sum(Medium) https://leetcode.com/problems/minimum-path-sum/description/
 
-- Letter Case Permutation(Easy) https://leetcode.com/problems/letter-case-permutation/description/
+- Climbing Stairs(Easy) https://leetcode.com/problems/climbing-stairs/description/
 
 ### LeetCode ID List
 - carrotfarm
