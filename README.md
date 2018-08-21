@@ -1,12 +1,13 @@
 # problem-solving
-### 2018-08-14  
-- Maximum Subarray(Easy) https://leetcode.com/problems/maximum-subarray/description/
+### 2018-08-21
+- House Robber(easy) https://leetcode.com/problems/house-robber/description/
 
-- Jump Game(Medium) https://leetcode.com/problems/jump-game/description/
+- Same Tree(easy) https://leetcode.com/problems/same-tree/description/
 
-- Minimum Path Sum(Medium) https://leetcode.com/problems/minimum-path-sum/description/
+- Single Number(easy) https://leetcode.com/problems/single-number/description/
 
-- Climbing Stairs(Easy) https://leetcode.com/problems/climbing-stairs/description/
+- Longest Substring Without Repeating Characters(medium) https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+
 
 ### LeetCode ID List
 - carrotfarm
