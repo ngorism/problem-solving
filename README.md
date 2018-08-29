@@ -1,12 +1,13 @@
 # problem-solving
-### 2018-08-21
-- House Robber(easy) https://leetcode.com/problems/house-robber/description/
+### 2018-08-28
 
-- Same Tree(easy) https://leetcode.com/problems/same-tree/description/
+- Peak Index in a Mountain Array(easy) https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 
-- Single Number(easy) https://leetcode.com/problems/single-number/description/
+- Search Insert Position(easy) https://leetcode.com/problems/search-insert-position/description/
 
-- Longest Substring Without Repeating Characters(medium) https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+- Most Profit Assigning Work(medium) https://leetcode.com/problems/most-profit-assigning-work/description/
+
+- Maximum Frequency Stack(hard) https://leetcode.com/problems/maximum-frequency-stack/description/ 
 
 
 ### LeetCode ID List
