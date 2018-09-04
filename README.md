@@ -1,19 +1,11 @@
 # problem-solving
-### 2018-08-28
+### 2018-09-04
 
-- Peak Index in a Mountain Array(easy) https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
+- Move Zeroes(easy) https://leetcode.com/problems/move-zeroes/description/
 
-- Search Insert Position(easy) https://leetcode.com/problems/search-insert-position/description/
+- Max Area of Island(easy) https://leetcode.com/problems/max-area-of-island/description/
 
-- Most Profit Assigning Work(medium) https://leetcode.com/problems/most-profit-assigning-work/description/
+- Best Time to Buy and Sell Stock(easy) https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
-- Maximum Frequency Stack(hard) https://leetcode.com/problems/maximum-frequency-stack/description/ 
-
-
-### LeetCode ID List
-- carrotfarm
-- kangtaku 
-
-
-
+- Best Time to Buy and Sell Stock with Cooldown(medium) https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/
  
