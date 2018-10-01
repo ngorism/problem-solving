@@ -1,7 +1,4 @@
-fun main(args: Array<String>) {
-
-
-}
+package week10.middleOfTheLinkedList
 
 class ListNode(var `val`: Int = 0) {
     var next: ListNode? = null
