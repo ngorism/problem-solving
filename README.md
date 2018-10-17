@@ -1,10 +1,10 @@
 # problem-solving
-### 2018-10-02
-- X of a Kind in a Deck of Cards(Easy) https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/
+### 2018-10-17
 
-- Partition Array into Disjoint Intervals(Medium) https://leetcode.com/problems/partition-array-into-disjoint-intervals/description/
+- Minimum Add to Make Parentheses Valid(Medium) https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
 
-- Linked List Cycle(Easy) https://leetcode.com/problems/linked-list-cycle/description/
+- Top K Frequent Words(Medium) https://leetcode.com/problems/top-k-frequent-words/description/
 
-- Linked List Cycle II(Medium) https://leetcode.com/problems/linked-list-cycle-ii/description/
+- Friend Circles(Medium) https://leetcode.com/problems/friend-circles/description/
 
+- Unique Morse Code Words(Easy) https://leetcode.com/problems/unique-morse-code-words/description/
