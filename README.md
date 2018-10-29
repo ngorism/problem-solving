@@ -1,10 +1,13 @@
 # problem-solving
-### 2018-10-17
+앞으로는 그냥 풀고싶으면 푸시고 Push해주시면 됩니다 ㅎㅎ
 
-- Minimum Add to Make Parentheses Valid(Medium) https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
+- Unique Email Addresses https://leetcode.com/problems/unique-email-addresses/description/
 
-- Top K Frequent Words(Medium) https://leetcode.com/problems/top-k-frequent-words/description/
+- Binary Subarrays With Sum https://leetcode.com/problems/binary-subarrays-with-sum/description/
 
-- Friend Circles(Medium) https://leetcode.com/problems/friend-circles/description/
+- ARCTIC https://algospot.com/judge/problem/read/ARCTIC
 
-- Unique Morse Code Words(Easy) https://leetcode.com/problems/unique-morse-code-words/description/
+- Traveling Salesman Problem 1 https://algospot.com/judge/problem/read/TSP1
+
+
+
